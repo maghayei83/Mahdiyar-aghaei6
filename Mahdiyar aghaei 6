@@ -1,0 +1,58 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Mahdiyar_aghaei_5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("آقای حاشمی ؟(YES/NO)");
+            string حاشمی = Console.ReadLine();
+            switch (حاشمی)
+            {
+                case "yes":
+                    Console.Write("چی میخوری چیپس میخوری (yes/no)");
+                    string چیپس =
+                    Console.ReadLine();
+                    if (چیپس == "yes")
+                    {
+                        Console.Write("اوجولات میقولی(yes/no)");
+                        string اوجولات =
+                            Console.ReadLine();
+
+                        Console.Write("زامبی شدی استاد(yes/no)");
+                        string زامبی =
+                            Console.ReadLine();
+                        if (زامبی == "yes")
+
+                            Console.Write("پیام داری برای پارسالیپ عزیز(yes/no)");
+                        string پارسالیپ =
+                            Console.ReadLine();
+
+                        Console.Write("پیام خوبی داری (yes/no)");
+                        string پیام =
+                            Console.ReadLine();
+
+                    }
+                    break;
+                case "no":
+                    Console.Write("سوالا تمام شد خدارو به شمای بزرگ میسپارم");
+                    string میسپارم = Console.ReadLine();
+
+                    break;
+
+                        {
+
+                    }
+
+
+
+            }
+
+            }
+        }
+    }
